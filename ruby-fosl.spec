@@ -1,12 +1,12 @@
 %define	pkgname	fosl
 Summary:	A Ruby API for reading lsof(1) output
 Name:		ruby-%{pkgname}
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	GPL v2+ or Ruby
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	9e366da1bd3e399dfe5bb5159880d0bf
+# Source0-md5:	bdd7bcd1fba2383ade2ea938fb26b903
 URL:		https://github.com/jordansissel/fosl
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
